@@ -6,7 +6,9 @@
 `docker build . -t docker-dnsmasq`
 ## Deployment container
 * Copy dnsmasq file to /srv
-** `docker build . -t docker-dnsmasq`
+
+`docker build . -t docker-dnsmasq`
+
 * Run docker-compose.yum
 ** `docker-compose up -d`
 * You can see docker container
