@@ -1,16 +1,16 @@
 # docker-dnsmasq-dhcp
 ## Introduce
-Easy to build DHCP of DNSmasq images and container.
+Easy to build DHCP of DNSmasq image and container.
 ## Install docker-ce
 [Install link](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 ## Install docker-compose
 [Install link](https://docs.docker.com/compose/)
-## Make docker images
+## Build docker images
 `docker build . -t docker-dnsmasq`
 ## Deployment container
-* Copy dnsmasq file to /srv
+* Copy dnsmasq files to /srv
 
-  `docker build . -t docker-dnsmasq`
+  cp -r dnsmasq.d dnsmasq.conf /srv
 
 * Run docker-compose.yum
 
