@@ -13,7 +13,7 @@ Install ocker-compose with the instructions on <https://docs.docker.com/compose/
 ## Deployment container
 * Clone docker-dnsmasq-dhcp Source Code
 
-`git clone https://github.com/kusiyu/docker-dnsmasq-dhcp.git`
+  `git clone https://github.com/kusiyu/docker-dnsmasq-dhcp.git`
 
 * Copy dnsmasq files to /srv
 
