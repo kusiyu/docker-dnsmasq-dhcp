@@ -11,6 +11,10 @@ Install ocker-compose with the instructions on <https://docs.docker.com/compose/
 
 `docker build . -t docker-dnsmasq`
 ## Deployment container
+* Clone docker-dnsmasq-dhcp Source Code
+
+`git clone https://github.com/kusiyu/docker-dnsmasq-dhcp.git`
+
 * Copy dnsmasq files to /srv
 
   `cp -r dnsmasq.d dnsmasq.conf /srv`
