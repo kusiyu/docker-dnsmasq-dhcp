@@ -5,7 +5,7 @@ Easy to build DHCP of DNSmasq image and container.
 ## Install docker-ce
 Install docker-ce with the instructions on <https://docs.docker.com/install/linux/docker-ce/ubuntu/>
 ## Install docker-compose
-Install ocker-compose with the instructions on <https://docs.docker.com/compose/)>
+Install ocker-compose with the instructions on <https://docs.docker.com/compose/>
 ## Build docker images
 [![](https://img.shields.io/docker/automated/:user/:repo.svg)](https://cloud.docker.com/repository/docker/kusiyu/dnsmasq-dhcp/tags)
 
